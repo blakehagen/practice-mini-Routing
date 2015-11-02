@@ -8,7 +8,7 @@ angular.module('miniRouting', ['ui.router']).config(function ($stateProvider, $u
         })
         .state('settings', {
             url: '/settings',
-            templateUrl: 'js/settings/settingsTempl.html',
+            templateUrl: 'js/settings/settingsTmpl.html',
             controller: 'settingsCtrl'
         })
         .state('products', {
